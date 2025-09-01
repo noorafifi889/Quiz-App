@@ -1,0 +1,100 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #eee;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.containar {
+  padding: 5% 10%;
+}
+.box {
+  background: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+    padding: 45px 25px;
+      max-width: 600px;
+  margin: 20px auto;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  margin-bottom: 15px;
+}
+.number-qustion {
+  font-weight: bold;
+  font-size: 18px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.questionName{
+  margin-bottom: 10px; 
+  font-size: 16px;
+}
+
+ input {
+  margin-right: 8px;
+  margin-bottom: 5px;
+}
+
+.choice label {
+  font-size: 14px;
+  cursor: pointer;
+}
+
+
+#clear {
+  margin-top: 10px;
+  background: none;
+  border: none;
+margin: 10px;
+
+  cursor: pointer;
+  font-size: 14px;
+}
+
+#clear:hover {
+  color: #e60000;
+}
+
+
+.repeat-quiz {
+  text-align: center;
+  
+}
+.btn {
+
+    display: flex
+;
+    justify-content: center;
+    align-items: center;
+    padding: 18px;
+  gap: 10px;
+}
+button {
+     
+       padding: 5px 10px;
+    background-color: lightblue;
+    display: flex
+;
+    border: none;
+    padding: 15px 69px;
+    font-size: 18px;
+
+
+}
+#result {
+  text-align: center;
+  font-weight: 60;
+  margin-top: 10px;
+  font-size: 40px;
+}
